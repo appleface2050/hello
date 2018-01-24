@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/appleface2050/stringutil"
+)
+
 
 func main() {
-    fmt.Printf("hello, world\n")
+    fmt.Printf(stringutil.Reverse("hello, world"))
 }
